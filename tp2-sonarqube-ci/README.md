@@ -1,6 +1,6 @@
 # TP2 — Análisis estático con SonarQube y hooks de pre-commit
 
-El código analizado es el juego del TP de Ingeniería de Software: [Lenox30/SHXL-GCS](https://github.com/Lenox30/SHXL-GCS). Esta carpeta contiene una copia de la configuración de calidad que se agregó a ese proyecto (en el repo original los archivos llevan punto adelante: `.pre-commit-config.yaml` y `.github/workflows/build.yml`).
+El código analizado es el juego del TP de Ingeniería de Software (repositorio privado). Esta carpeta contiene una copia de la configuración de calidad que se agregó a ese proyecto (en el repo original los archivos llevan punto adelante: `.pre-commit-config.yaml` y `.github/workflows/build.yml`).
 
 | Archivo | Para qué sirve |
 |---|---|

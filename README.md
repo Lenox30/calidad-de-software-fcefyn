@@ -14,7 +14,7 @@ Cada carpeta es un práctico independiente sobre una herramienta o técnica que 
 
 **TP1 — Feature flags y Docker.** Contador de visitas en Flask con Redis, empaquetado con Docker y Docker Compose. Con Harness Feature Flags se prueba un *dark launch* (activar un cambio sin redeploy), *targeting* por segmentos de usuarios y A/B testing.
 
-**TP2 — SonarQube y CI.** Sobre el juego del TP de Ingeniería de Software ([repo SHXL-GCS](https://github.com/Lenox30/SHXL-GCS)) se configuró un pipeline de GitHub Actions que corre SonarQube en cada push o pull request, más hooks de pre-commit para formato (black, isort) y tipado (mypy). En esta carpeta están los archivos de configuración; el código analizado está en ese repo.
+**TP2 — SonarQube y CI.** Sobre el juego del TP de Ingeniería de Software (repositorio privado) se configuró un pipeline de GitHub Actions que corre SonarQube en cada push o pull request, más hooks de pre-commit para formato (black, isort) y tipado (mypy). En esta carpeta están los archivos de configuración; el código analizado no está publicado.
 
 **TP4 — Canary release y pruebas de carga.** Dos versiones de una app desplegadas en Kubernetes, con un NGINX Ingress que reparte el tráfico por porcentaje (canary). Se fue aumentando el porcentaje de la versión nueva y se midió el comportamiento con pruebas de carga en K6. El paso a paso está en el [README del práctico](tp4-canary-kubernetes-k6/README.md).
 
