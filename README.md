@@ -1,6 +1,7 @@
 # Gestión y Calidad de Software — Trabajos prácticos
 
 Trabajos prácticos de la materia optativa **Gestión y Calidad de Software** — FCEFyN, Universidad Nacional de Córdoba (2025).
+Trabajo grupal (4 integrantes).
 
 Cada carpeta es un práctico independiente sobre una herramienta o técnica que se usa en equipos de desarrollo reales.
 
@@ -18,7 +19,7 @@ Cada carpeta es un práctico independiente sobre una herramienta o técnica que 
 
 **TP4 — Canary release y pruebas de carga.** Dos versiones de una app desplegadas en Kubernetes, con un NGINX Ingress que reparte el tráfico por porcentaje (canary). Se fue aumentando el porcentaje de la versión nueva y se midió el comportamiento con pruebas de carga en K6. El paso a paso está en el [README del práctico](tp4-canary-kubernetes-k6/README.md).
 
-## Qué aprendí
+## Qué aprendimos
 
 - Que la calidad no es solo testear al final: se puede automatizar en cada commit (pre-commit), en cada push (CI + SonarQube) y en cada release (canary + pruebas de carga).
 - A separar el despliegue del lanzamiento de una funcionalidad con feature flags.
